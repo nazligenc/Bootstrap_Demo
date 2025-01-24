@@ -47,12 +47,13 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
 }
+
 .card-img {
-    width: 100%; /* Görsellerin genişliğini ayarlar */
-    height: 150px; /* Görsellerin yüksekliğini ayarlar */
-    object-fit: cover; /* Görsellerin boyutunu koruyarak sığdırır */
+    width: 100%; /* Görselin kartın genişliğine uyum sağlaması */
+    height: auto; /* Oranları koruyarak yüksekliği ayarlama */
+    max-width: 100%; /* Maksimum genişlik */
+ }
     
-}
 
 
 .card-text {
