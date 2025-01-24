@@ -1,0 +1,81 @@
+body {
+    background-color: #eaeae1;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+
+#hitext{
+    color:brown;
+    font-size:20px;
+    margin-top:30px;
+
+}
+.p{
+    font-size:20px;
+}
+.products{
+     margin-left:15%;
+     background-color: cadetblue;
+     border-radius:10%;
+     cursor:pointer;
+}
+.container-card{
+    margin-top:2%;
+    justify-content: center;
+    display: flex;
+    gap:50px;
+}
+
+.card {
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column; /* İçerikleri dikey olarak sıralar */
+    align-items: center; /* Yatayda ortalar */
+    justify-content: center; /* Dikeyde ortalar */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+.card-img {
+    width: 100%; /* Görsellerin genişliğini ayarlar */
+    height: 150px; /* Görsellerin yüksekliğini ayarlar */
+    object-fit: cover; /* Görsellerin boyutunu koruyarak sığdırır */
+    
+}
+
+
+.card-text {
+    margin-top:50px;
+    width: 100%;
+    text-align: left;
+    color:brown;
+    
+}
+.price-tag{
+    font-size:10px;
+    background-color: #333; /* Koyu tonlu arka plan rengi */
+    color: white; /* Metin rengi beyaz */
+    padding: 5px 10px; /* İç boşluk */
+    border-radius: 5px; /* Köşeleri yuvarlatır */
+    display: inline-block; /* Satır içi blok yapar */
+    margin-top: 10px; /* Üst boşluk */
+}
+#aboutus{
+    background-color: #fff; /* Arka plan rengini beyaz yapar */
+    padding: 20px; /* İç boşluk ekler */
+    border-radius: 8px; /* Köşeleri yuvarlatır */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge ekler */
+    margin-top: 20px; /* Üst boşluk ekler */
+    text-align: left; /* Metni sola hizalar */
+}
